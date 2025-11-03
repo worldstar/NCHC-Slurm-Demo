@@ -1,0 +1,3 @@
+I download this dataset from Roboflow.
+Diabetic Retinopathy Screening AI Computer Vision Model
+https://universe.roboflow.com/ucla-master-of-quantitative-economics/diabetic-retinopathy-screening-ai
