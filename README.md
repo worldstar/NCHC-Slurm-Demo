@@ -2,11 +2,14 @@
 Because the Dept of CSIE, TKU bought the GPU resources from NCHC in year 2025, to help teachers and students access this platform easily, I design this quick-start guide which introduces how to use the NCHC GPU instance by Slurm. This repository shows how to run an image classification algorithm (PyTorch) on NCHC Nano5 using Slurm and a Singularity container. 
 
 ## Quick-Start Steps
-### 1. Download / Clone this Project on NCHC Nano5
+### 1. Connect to the Nano5 Server by SSH
+Please read the slides "How to use Nano5 of NCHC.pdf", particularly the Section 2.
+
+### 2. Download / Clone this Project on NCHC Nano5
 ```bash
 git clone https://github.com/worldstar/NCHC-Slurm-Demo.git
 ```
-### 2. Revise singularityClassification.slurm: 
+### 3. Revise singularityClassification.slurm: 
 Edit the Slurm script to match your project/account and container:
 
 ```bash
@@ -24,8 +27,6 @@ Save and exit:
 ```bash
 :wq
 ```
-### 3. Connect to the Nano5 Server by SSH
-Please read the slides "How to use Nano5 of NCHC.pdf", particularly the Section 2.
 
 ### 4. Submit the Slurm Job: 
 From the repository folder, submit the job:
@@ -35,6 +36,7 @@ sbatch singularityClassification.slurm
 ```
 
 ### 5. Check job status:
+We will check the job is assigned to a queue and to be executed. Besides, we will read the logs during the training.
 
 ```bash
 squeue -u $USER
