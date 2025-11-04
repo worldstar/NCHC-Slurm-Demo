@@ -2,7 +2,7 @@ NCHC-Slurm-Demo
 NCHC provides the vVidia H100 and H200 GPU. In order to access this platform quickly, I design this quick start guide which introduce how to use the NCHC GPU instance by Slurm.
 
 How to Use Nano5 of NCHC
-This repository shows how to run a PyTorch image classification job on NCHC Nano5 using Slurm and a Singularity container.
+This repository shows how to run a PyTorch image classification job on NCHC Nano5 using Slurm and a Singularity container. For the details, please read the slides "How to use Nano5 of NCHC.pdf"
 
 1. Download / Clone this Project on NCHC Nano5
 bash
@@ -15,27 +15,28 @@ bash
 vim singularityClassification.slurm
 In the file, update at least:
 
-bash
+'''bash
 #SBATCH --account=YOUR_PROJECT_ID   # e.g. MSTXXXX or ACDXXXX
 #SBATCH --partition=dev             # or normal / normal2
 
+'''bash
 CONTAINER=/work/hpc_sys/sifs/pytorch_23.11-py3.sif   # or your own .sif
 python src/train.py --config configs/your_config.yaml
 Save and exit:
 
-text
+'''text
 :wq
 3. Submit the Slurm Job
 From the repository folder, submit the job:
 
-bash
+'''bash
 sbatch singularityClassification.slurm
 Check job status:
 
-bash
+'''bash
 squeue -u $USER
 View logs (after job starts):
 
-bash
+'''bash
 ls *.out *.err
 less JOBNAME-JOBID.out
