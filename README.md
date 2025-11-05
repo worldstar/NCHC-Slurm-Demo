@@ -49,17 +49,16 @@ ls *.out *.err
 less JOBNAME-JOBID.out
 ```
 ## Useful Resources:
-Nano5 Main Document: https://man.twcc.ai/@AI-Pilot/manual
-Slides: https://docs.google.com/presentation/d/1WKUXZJMqch0xUEPKZCN1cBLErxKtJ9P2/mobilepresent?pli=1&slide=id.p1
-Member Management：https://iservice.nchc.org.tw/nchc_service/nchc_service_qa_single.php?qa_code=23
-Wallet Management：https://iservice.nchc.org.tw/nchc_service/nchc_service_qa_single.php?qa_code=20
+1. Nano5 Main Document: https://man.twcc.ai/@AI-Pilot/manual
+2. Slides: https://docs.google.com/presentation/d/1WKUXZJMqch0xUEPKZCN1cBLErxKtJ9P2/mobilepresent?pli=1&slide=id.p1
+3. Member Management：https://iservice.nchc.org.tw/nchc_service/nchc_service_qa_single.php?qa_code=23
+4. Wallet Management：https://iservice.nchc.org.tw/nchc_service/nchc_service_qa_single.php?qa_code=20
 
 ## Credits:
 1. The image classification algorithm is obtain from timm (PyTorch Image Models) 
 https://github.com/huggingface/pytorch-image-models.git
 2. Image Dataset: Diabetic Retinopathy Screening AI Computer Vision Model
 https://universe.roboflow.com/ucla-master-of-quantitative-economics/diabetic-retinopathy-screening-ai
-<img width="945" height="76" alt="image" src="https://github.com/user-attachments/assets/ba065ca2-2bbc-4265-9557-6ba6c5fef01a" />
 
 ## Extra
 If you are interested in the Taiwan Computing Cloud (TWCC) with Tesla V100 GPU with web interface, please read the slides "How to use TWCC-YOLOv9.pdf" in the Slides folder.
