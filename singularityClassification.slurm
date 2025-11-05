@@ -20,7 +20,7 @@ TIMM_DIR="${SRC_DIR}/NCHC-Slurm-Demo/pytorch-image-models"
 EPOCHS=50
 IMG_H=512
 IMG_W=512
-BATCH=96
+BATCH=64
 WORKERS=${SLURM_CPUS_PER_TASK:-4}
 
 # =====[ 基本環境 ]=====
