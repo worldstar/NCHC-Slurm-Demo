@@ -7,7 +7,7 @@
 ##SBATCH --gpus=1
 # 通用寫法（多數中心可用）
 #SBATCH --gres=gpu:1
-#SBATCH --cpus-per-task=4
+#SBATCH --cpus-per-task=8
 #SBATCH --time=01:00:00
 #SBATCH --output=%x-%j.out
 #SBATCH --error=%x-%j.err
@@ -20,7 +20,7 @@ TIMM_DIR="${SRC_DIR}/NCHC-Slurm-Demo/pytorch-image-models"
 EPOCHS=50
 IMG_H=512
 IMG_W=512
-BATCH=64
+BATCH=96
 WORKERS=${SLURM_CPUS_PER_TASK:-4}
 
 # =====[ 基本環境 ]=====
