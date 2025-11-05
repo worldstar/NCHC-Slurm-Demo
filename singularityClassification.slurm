@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=cls-sing
 #SBATCH --partition=dev
-#SBATCH --account=MST114331      ## iService_ID 計畫 ID
+#SBATCH --account=MSTXXX      ## iService_ID 計畫 ID
 ## 選一種 GPU 申請方式（依叢集設定）
 # 新版寫法（若支援）
 ##SBATCH --gpus=1
