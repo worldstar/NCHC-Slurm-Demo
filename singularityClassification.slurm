@@ -44,12 +44,6 @@ set -euo pipefail
 # 顯示 GPU 狀態（確認 --nv 生效）
 nvidia-smi || true
 
-# 準備程式碼目錄
-mkdir -p "$HOME/src"
-if [ ! -d "$HOME/src/pytorch-image-models" ]; then
-  git clone https://github.com/huggingface/pytorch-image-models.git "$HOME/src/pytorch-image-models"
-fi
-
 # upgrade pip to 25.3 (as requested), then deps
 python -m pip --version || true
 python -m pip install --user --upgrade "pip==25.3"
