@@ -60,6 +60,7 @@ TWCC actually provides a very sufficient GPU resources. If you like to use older
 ## Other Examples:
 [YOLOv9](https://github.com/worldstar/NCHC-YOLOv9-Demo/)
 [GAN](https://github.com/worldstar/NCHC-GAN-Pix2Pix-CycleGAN-demo)
+
 ## Credits:
 1. The image classification algorithm is obtained from timm (PyTorch Image Models) 
 https://github.com/huggingface/pytorch-image-models.git
