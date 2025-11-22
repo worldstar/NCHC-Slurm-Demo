@@ -1,5 +1,5 @@
 # Quick Start Guide: Running Jobs on NCHC Supercomputers (Nano5, nVidia H100/H200)
-Because the Dept of CSIE, TKU bought the GPU resources from NCHC in 2025, to help teachers and students access this platform easily, I designed this quick-start guide, which introduces how to use the NCHC GPU instance by Slurm. This repository shows how to run an image classification algorithm (PyTorch) on NCHC Nano5 using Slurm and a Singularity container. Examples of YOLOv9 and GAN are also provided.
+Because the Dept of CSIE, TKU bought the GPU resources from NCHC in 2025, to help teachers and students access this platform easily, I designed this quick-start guide, which introduces how to use the NCHC GPU instance by Slurm. This repository shows how to run an image classification algorithm (PyTorch) on NCHC Nano5 using Slurm and a Singularity container. Examples of [YOLOv9](https://github.com/worldstar/NCHC-YOLOv9-Demo/) and [GAN](https://github.com/worldstar/NCHC-GAN-Pix2Pix-CycleGAN-demo) are also provided.
 
 ## Quick-Start Steps
 ### 1. Connect to the Nano5 Server by SSH
@@ -55,8 +55,8 @@ less JOBNAME-JOBID.out
 4. Wallet Management：https://iservice.nchc.org.tw/nchc_service/nchc_service_qa_single.php?qa_code=20
 
 ## Other Examples:
-YOLOv9 https://github.com/worldstar/NCHC-YOLOv9-Demo/settings
-GAN https://github.com/worldstar/NCHC-GAN-Pix2Pix-CycleGAN-demo
+[YOLOv9](https://github.com/worldstar/NCHC-YOLOv9-Demo/)
+[GAN](https://github.com/worldstar/NCHC-GAN-Pix2Pix-CycleGAN-demo)
 ## Credits:
 1. The image classification algorithm is obtained from timm (PyTorch Image Models) 
 https://github.com/huggingface/pytorch-image-models.git
