@@ -1,5 +1,5 @@
 # Quick Start Guide: Running Jobs on NCHC Supercomputers (Nano5, nVidia H100/H200)
-Because the Dept of CSIE, TKU bought the GPU resources from NCHC in 2025, to help teachers and students access this platform easily, I designed this quick-start guide, which introduces how to use the NCHC GPU instance by Slurm. This repository shows how to run an image classification algorithm (PyTorch) on NCHC Nano5 using Slurm and a Singularity container. Examples of [YOLOv9](https://github.com/worldstar/NCHC-YOLOv9-Demo/) and [GAN](https://github.com/worldstar/NCHC-GAN-Pix2Pix-CycleGAN-demo) are also provided.
+To help teachers and students access NCHC platform easily, I designed this quick-start guide, which introduces how to use the NCHC GPU instance by Slurm. This repository shows how to run an image classification algorithm (PyTorch) on NCHC Nano5 using Slurm and a Singularity container. Examples of [YOLOv9](https://github.com/worldstar/NCHC-YOLOv9-Demo/) and [GAN](https://github.com/worldstar/NCHC-GAN-Pix2Pix-CycleGAN-demo) are also provided.
 
 ## Quick-Start Steps
 ### 1. Connect to the Nano5 Server by SSH
